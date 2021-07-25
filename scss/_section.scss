@@ -1,0 +1,139 @@
+#hero {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+
+    background-position: center;
+    padding-top: 90px;
+    min-height: 700px;
+
+    h1 {
+        color: $terciary-color;
+    }
+
+    p {
+        color: $terciary-color;
+    }
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+
+    p {
+        color: $text-nav;
+    }
+
+}
+
+
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+
+}
+
+.btn-light {
+    background-color: $terciary-color;
+    color: $text-nav;
+    border: 2px solid $terciary-color;
+}
+
+.btn-dark{
+    background-color:$text-nav;
+    color: $terciary-color;
+    border: 2px solid $text-nav;
+}
+.btn-transparent{
+    background-color: transparent;
+    color: $terciary-color;
+    border:2px solid $terciary-color;
+    &:hover{
+        color: $terciary-color;
+    }
+}
+.full-width{
+    width: 100%;
+}
+.btn i {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+
+section {
+    padding: 120px 0;
+
+}
+
+.productos-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+
+    img {
+        -moz-transition: all 0.8s;
+        -webkit-transition: all 0.8s;
+        transition: all 0.8s;
+
+        &:hover {
+            -moz-transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+    }
+}
+
+.productos-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+
+    h2 {
+        color: $terciary-color;
+        margin-bottom: 0px;
+
+    }
+
+    p {
+        color: $terciary-color;
+    }
+
+}
+
+.pricing-container {
+    margin: 15px 0;
+}
+
+.plans {
+    padding: 50px 80px;
+    border-radius: 2px;
+    min-width: 450px;
+    h2{
+        font-size: 70px;
+        font-weight: 600;
+    }
+    span{
+        font-size: 20px;
+    }
+    ul{
+        list-style-type: square;
+    }
+}
+
+.plan-light {
+    background-color: $terciary-color;
+    border: 2px solid $text-nav;
+}
+
+.plan-dark {
+    background-color: $text-nav;
+    border: 2px solid $text-nav;
+    color: $terciary-color;
+}
+

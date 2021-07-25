@@ -1,0 +1,24 @@
+.navbar{
+    background-color: $terciary-color;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    min-height: 100px;
+
+}
+
+.nav-link{
+    color: $text-nav;
+    &:hover{
+        color: $text-nav;
+    }
+}
+
+.navbar-brand{
+    color: $secondary-color;
+}
+
+.navbar-toggler{
+    font-size: 35px;
+    &:focus{
+        outline: none;
+    }
+}

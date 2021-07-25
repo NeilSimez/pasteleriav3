@@ -1,0 +1,42 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+
+
+    h1 {
+
+        font-size: 66px;
+        font-weight: 600;
+        line-height: 80px;
+    }
+
+    h2 {
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.8;
+        margin-bottom: 0;
+        color: #1a1a1a;
+
+    }
+
+    a:hover{
+        text-decoration: none;
+    }
+    .topmargin-lg {
+        margin-top: 60px;
+    }
+
+    .topmargin-sm {
+        margin-top: 30px;
+    }
+
+    .topmargin-xs {
+        margin-top: 15px;
+    }
+}
+.text-dark{
+    color: $terciary-color;
+}

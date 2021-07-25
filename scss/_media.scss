@@ -1,0 +1,29 @@
+
+@media (min-width: 576px) { 
+    h1{
+        font-size: 40px;
+        line-height: normal;
+    }
+    .plans{
+        min-width:unset;
+        padding: 40px;
+    }
+    .productos-details h2{
+        font-size: 32px;
+    }
+ };
+
+
+@media (min-width: 768px) { };
+
+.plans{ min-width: unset;
+    padding:40px 20px;
+   }
+@media (min-width: 992px) { 
+   .plans{ min-width: unset;
+    padding:40px 20px;
+   }
+ };
+
+
+@media (min-width: 1200px) {};

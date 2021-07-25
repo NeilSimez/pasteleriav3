@@ -1,0 +1,14 @@
+$primary-color: #ffe92e;
+$text-nav: #1a1a1a;
+$secondary-color: black;
+$terciary-color: #ffffff;
+$font-color: #aaa;
+$box-shadow: 0 2px 1px 0 rgba(0,0,0,0.6);
+$limit: 10px;
+$unit: 8px;
+
+
+
+@function size($value){
+    @return $value* $unit;
+}
