@@ -203,6 +203,10 @@ section {
   color: #ffffff;
 }
 
+.zindex {
+  z-index: 90000;
+}
+
 @media (min-width: 576px) {
   h1 {
     font-size: 40px;

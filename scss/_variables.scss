@@ -9,6 +9,3 @@ $unit: 8px;
 
 
 
-@function size($value){
-    @return $value* $unit;
-}
