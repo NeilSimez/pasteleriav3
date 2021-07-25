@@ -105,6 +105,7 @@ body .topmargin-xs {
   background-color: #ffffff;
   color: #1a1a1a;
   border: 2px solid #ffffff;
+  margin: 5px;
 }
 
 .btn-dark {
@@ -121,6 +122,26 @@ body .topmargin-xs {
 
 .btn-transparent:hover {
   color: #ffffff;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
 }
 
 .full-width {
@@ -231,6 +252,14 @@ section {
     min-width: unset;
     padding: 40px 20px;
   }
+}
+
+.separator {
+  margin: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: auto;
 }
 
 .form-control {
