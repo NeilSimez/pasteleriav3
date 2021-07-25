@@ -228,4 +228,67 @@ section {
     padding: 40px 20px;
   }
 }
+
+.form-control {
+  font-size: 14px;
+  border: 1px solid #cacaca;
+  padding: 15px;
+  border-radius: 2px;
+  height: auto;
+}
+
+.form-control:focus {
+  border: 1px solid #1a1a1a;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#footer {
+  background-color: #1a1a1a;
+}
+
+#tienda .title-tienda {
+  margin-left: 45%;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#tienda .page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#tienda .card {
+  margin: 15px;
+  padding: 2px 16px;
+  position: relative;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#tienda .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#products .carousel-item img {
+  background-position: center;
+  padding-top: 0px;
+  min-height: 700px;
+  width: 100%;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=style.css.map */

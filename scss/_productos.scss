@@ -1,0 +1,13 @@
+#products{
+    .carousel-item{
+        img{
+            background-position: center;
+            padding-top: 0px;
+            min-height: 700px;
+            width:100%;
+            height: 700px;
+            object-fit: cover;
+            
+        }
+    }
+}

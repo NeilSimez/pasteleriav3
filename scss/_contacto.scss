@@ -1,0 +1,12 @@
+.form-control{
+    font-size:14px;
+    border: 1px solid #cacaca;
+    padding: 15px;
+    border-radius: 2px;
+    height:auto;
+    &:focus{
+        border: 1px solid $text-nav;
+        outline: none;
+        box-shadow: none;
+    }
+}
