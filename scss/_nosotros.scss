@@ -1,0 +1,37 @@
+.parrafo {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: rgb(24, 16, 16);
+    margin: 24px;
+    font-size: 1.18rem;
+}
+.slogan {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+.sobre-nosotros {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    height: auto;
+}
+.img-circle{
+    margin:10px auto;
+    display:block;
+    min-height: $limit*70;
+    padding-top: 0;
+    min-height: $limit;
+    width:20%;
+    object-fit: cover;
+    
+}
+
+.d-margin{
+    margin:12px;
+}
