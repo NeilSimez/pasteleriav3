@@ -291,6 +291,7 @@ section {
   width: 100%;
   height: 700px;
   object-fit: cover;
+<<<<<<< HEAD
 }
 
 .container-table {
@@ -383,4 +384,8 @@ section {
   margin: 12px;
 }
 
+=======
+}
+
+>>>>>>> master
 /*# sourceMappingURL=style.css.map */
