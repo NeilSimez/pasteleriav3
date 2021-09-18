@@ -1,0 +1,22 @@
+[
+    {
+        "precio": 2,
+        "id": 1,
+        "title": "Cupacke 1",
+        "thumbnailUrl": "https://p1.pxfuel.com/preview/492/1006/378/chocolate-mini-cupcakes-blue-pink-frosting-sprinkles-sweet.jpg"
+    },
+    {
+        "precio": 3,
+        "id": 2,
+        "title": "Cupcake 2",
+        "thumbnailUrl": "https://i0.hippopx.com/photos/150/993/258/cupcake-sweet-frosting-decorating-cake-preview.jpg"
+    },
+    {
+        "precio": 2,
+        "id": 3,
+        "title": "Cupcake 3",
+        "thumbnailUrl": "https://p1.pxfuel.com/preview/723/21/252/cupcakes-frosting-purple-gumball-delicious-party.jpg"
+    }
+    
+  
+]
